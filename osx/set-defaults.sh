@@ -381,6 +381,6 @@ defaults write com.google.Chrome.canary ExtensionInstallSources -array "https://
 # Kill affected applications                                                  #
 ###############################################################################
 
-for app in "Dock" "Finder" "Mail" "Messages" "Safari" "SystemUIServer" "Terminal"; do
+for app in "Dock" "Finder" "Mail" "Messages" "Safari" "SystemUIServer"; do
         killall "${app}" > /dev/null 2>&1
 done
