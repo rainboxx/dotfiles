@@ -38,3 +38,9 @@ do
 done
 
 unset config_files
+
+# Import perlbrew (even if it's named bashrc)
+if test -f /usr/local/perl5/etc/bashrc
+then
+    source /usr/local/perl5/etc/bashrc
+fi
