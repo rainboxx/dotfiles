@@ -1,3 +1,11 @@
+# rainboxx also does dotfiles
+
+This is showing the intention of moving my system configuration to depend
+on dotfiles. I started by forking @holman's dotfiles and will continue my
+adventure from here on.
+
+Wish me luck!
+
 # holman does dotfiles
 
 ## dotfiles
