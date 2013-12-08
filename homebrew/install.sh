@@ -12,7 +12,8 @@ then
   ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)" > /tmp/homebrew-install.log
 fi
 
-# Install homebrew packages
+# Install homebrew packages and prepare share to be writable
+sudo chmod -R g+w /usr/local/share
 brew install grc coreutils spark
 
 exit 0
