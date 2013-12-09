@@ -8,3 +8,18 @@ cd "$(dirname $)"/..
 
 # find the installers and run them iteratively
 find . -name install.sh | while read installer ; do sh -c "${installer}" ; done
+
+echo =======================================================================
+echo   Now install the following apps from the app store or download
+echo   them from somewhere else:
+echo    • Skype
+echo    • Git Tower
+echo    • Google Chrome
+echo    • iTerm 2
+echo    • Sublime Text 2/3
+echo    • Spotify
+echo    • CloudApp
+echo
+echo =======================================================================
+echo   Download Powerline-patched font from
+echo      https://gist.github.com/1595572
